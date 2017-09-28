@@ -1,0 +1,58 @@
+#wrapper{
+    width: 1250px;
+    height: 650px;
+    border: 5px solid grey;
+    background-color: black;
+}
+
+.select{
+    width: 300px;
+    height: 200px;
+    border: 5px solid grey;
+    background-color: rgb(163, 164, 166);
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;top: 100px; left: 480px;
+    vertical-align: top;
+}
+
+.arenas{
+    width: 80px;
+    height: 45px;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background-color: white;
+    margin: 2px;
+}
+
+.selection{
+    color: rgb(227, 165, 41);
+}
+
+#players{
+    display: none;
+    height: 200px;
+}
+
+.character{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+
+}
+.pics{
+    display: none;
+    width: 300px;
+    height: 350px;
+}
+
+#left{
+    position: fixed; top: 300px; left: 200px;
+}
+
+#right{
+    position: fixed; top: 300px; left: 800px;
+}
